@@ -20,10 +20,12 @@ public class Main {
 		}
 		System.out.println();
 		
+		InsertionSort.insertionSort(unsortedArray);
 		System.out.println("Sorted Array:");
 		//TODO: sort the array and print out its contents
-		
-		
+		for (int i: unsortedArray) {
+				System.out.print(i + " ");
+		}
 	}
 
 }
